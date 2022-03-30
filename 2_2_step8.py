@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import By
 try:
 
     link = "http://suninjuly.github.io/file_input.html"
-    
-    browser = webdriver.Firefox()
+    browser = webdriver.Chrome()
+#    browser = webdriver.Firefox()
     browser.get(link)
     
     input1 = browser.find_element_by_name("firstname")
